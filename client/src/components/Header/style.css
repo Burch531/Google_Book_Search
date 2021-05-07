@@ -2,5 +2,9 @@
     min-height: 300px;
     padding-top: 100px;
     background: transparent;
-   
+    
+}
+
+h1 {
+    color: black;
 }
