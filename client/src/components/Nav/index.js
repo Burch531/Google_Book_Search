@@ -1,16 +1,13 @@
 import React from "react";
-import "./style.css";
 
-// This file exports both the List and ListItem components
-
-export function List({ children }) {
+function Nav() {
   return (
-    <div className="list-overflow-container">
-      <ul className="list-group">{children}</ul>
-    </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a className="navbar-brand" href="/">
+        React Reading List
+      </a>
+    </nav>
   );
 }
 
-export function ListItem({ children }) {
-  return <li className="list-group-item">{children}</li>;
-}
+export default Nav;
