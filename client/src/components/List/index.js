@@ -17,7 +17,7 @@ export function BookListItem(props) {
     // function to handle saving book to db when save button is clicked
     const handleSaveBtn = event => {
 
-        API.saveBook({
+        API.savedBooks({
             title: props.title,
             authors: props.authors,
             description: props.description,
